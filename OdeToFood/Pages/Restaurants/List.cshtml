@@ -5,5 +5,27 @@
 
 <h2>Restaurants List</h2>
 
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Cuisine</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Restaurants)
+        {
+            <tr>
+                <td>@r.Name</td>
+                <td>@r.Location</td>
+                <td>@r.Cuisine</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
 @Model.Msg <br/>
 @Model.Message
