@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OdeToFood.Core;
 using OdeToFood.Data;
+using System.Collections.Generic;
 
 namespace OdeToFood.Pages.Restaurants
 {
@@ -14,6 +11,7 @@ namespace OdeToFood.Pages.Restaurants
     {
         private readonly IRestaurantData _restaurantData;
         private readonly IHtmlHelper _htmlHelper;
+        [BindProperty]
         public Restaurant Restaurant { get; set; }
         public IEnumerable<SelectListItem> Cuisines { get; set; }
 
@@ -22,6 +20,7 @@ namespace OdeToFood.Pages.Restaurants
             this._restaurantData = restaurantData;
             this._htmlHelper = htmlHelper;
         }
+
         public IActionResult OnGet(int restaurantId)
         {
             Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
@@ -31,6 +30,13 @@ namespace OdeToFood.Pages.Restaurants
             {
                 return RedirectToPage("./NotFound");
             }
+            return Page();
+        }
+
+        public IActionResult OnPost()
+        {
+            Restaurant = _restaurantData.Update(Restaurant);
+            _restaurantData.Commit();
             return Page();
         }
     }
