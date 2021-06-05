@@ -52,12 +52,13 @@ namespace OdeToFood.Pages.Restaurants
             if (Restaurant.Id > 0)
             {
                 _restaurantData.Update(Restaurant);
+                TempData["Message"] = "Restaurant Data Updated";
             }
             else
             {
                 _restaurantData.Add(Restaurant);
+                TempData["Message"] = "Restaurant Data Saved";
             }
-            
             _restaurantData.Commit();
             return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
         }
