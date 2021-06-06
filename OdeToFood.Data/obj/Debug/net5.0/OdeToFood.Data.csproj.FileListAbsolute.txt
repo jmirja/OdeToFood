@@ -1,0 +1,15 @@
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Data.deps.json
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Data.dll
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\ref\OdeToFood.Data.dll
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Data.pdb
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Core.dll
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Core.pdb
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.AssemblyInfoInputs.cache
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.AssemblyInfo.cs
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.csproj.CopyComplete
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.dll
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\ref\OdeToFood.Data.dll
+C:\Users\nextIT\Source\Repos\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.pdb
